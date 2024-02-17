@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "build-tailwind-app",
+  "private_key_id": "86681b08d85f9d04e297d0a5759eac6415c524fe",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC10uK9h7R9ATKL\nV5V4SjlTcI4g1V1T+9j8W6hieZixBDROpq0CL6sMMwF58u/G591J+3XiUdeIbIuB\nV2+wkFyoUmpKcCT6Xz1QfcTwN+xMshyFooHg5l2qqHL6IiSU89R+GdCTrgf46m9+\nCyNnGMpkPU//9YiuG2Q1+ab9h32zgNPxfmY98eNJo+nssvfsCJY1xAmB3YmoJLvb\n5C6qj0m8lBm896kOWUE18S4mnhtddZTU7gtrBPF7m+GlglVzSrTKPT5mp3ylcdol\ntfROk2SH6KgFGsMdOIu6Y4DZxMxXRpsDcxtAjGjFunSlVIY/L/zyUrfea75ePstG\nkzigpPszAgMBAAECggEABU8oyHNWUDF2bLPcV8yFtgEFtWxliEFEtGxnaKYM+7Dt\nZ2qIh2rQP3qceBd27EOdpj5jJ9OkoTAs4VRQnO2U4bleWdltIFPNnN8UnsBonv4I\nb9fZ8QY+WpsGmHU3b5NbHhTaOVBjR9/DQladlwdrSYKyJlLgxddjlWE6gLwHGJ8F\nd14iQtP/8rdIKqzrr5097hRRS5HbrMlPLMB3GRmTe2m7inQSK+juWAOPDnz73MoX\nv530UR4CFJtgMXw/hpxtdEnPwhaTvHoFojv49GEug0kZfaiVPF+4Ld5RfY05wKOM\nlfjDODOlgVWA7GuVQdaZpfG9+HRawY24oLdoO2kHuQKBgQDbNUwzHOnJX8GjtmLr\n+P21AXtQD8v3X2Ii3LomVG7MBvVNKOYbjbm7D9jLzbrtdhdxkTFn5NJkPdBqih9w\n0Dy3TA+sNdO+XSHb/kJ9mWIyWGoxxr7hZuD5sazwCEqqj1NkdKxfya5oE+iz+nTz\nzEp/d5asBtg1kYZWlm6UXDbIPQKBgQDUV0tauz0mhsVOMyKPPpcXhLGv9nC92mXx\nDo1E0O5WP1W4Q61n3qco6k+fp38z6Mz3BiavsCjCfZa9fbI4TzqSsIfoRAu6qdJo\ng+W5/nAVoQgDGJR7g6XBLYYXXkpg2gOMU6VaK51W7+8mCMKKoi67ykc6UyP7lzEB\nzmqGA5qYLwKBgQDBVTN8jQ6gfaTiR/TdHEBfCQyCIzyIU4bRKo2/So5hwe1NfTnd\nqVTa5/IUZcFst8+baSwC7qyknmQX4vQx4mb6Xsof32V+KtO3HHv2HHaf4pzeg+RM\nFhlr/8l/9kAsR7aMDd8NqGn6/zwoqEfH0jEOVSH9XRgJvuyVp52lmeLzHQKBgGY1\npsYDvsmesbaUkpwU6rGdY9Jpc5dPWyaPdJydXTwSvHY3zW5kFF5zeuREwcwA0ThO\ns6x5xQTpYvfPW0wThwQ5CRJaPrMZL3izlI7U1Kr0mmCzIjXaBp1YBmWVM4QvLOoN\nEVi4CcJhN+I88Te+HXSzR1nhzz45ZpOSAmCDt5RtAoGAVWiWTOpb+eYl66+5bV2m\nmDSkrPD1HKLTraIU5tdH5ZrRh9VZN3W0nj0dxSUY2rSZy1sajkNaDizLZKy22m73\n08CWIvFGQMn7Nk4A2ChCLpYkSYa/Uvi8MvHVYFPRtKPUmLlQ2OQx5AeqodnfkA95\nBxqUgMWaBgFAbpAlSvWicIg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-5qhn2@build-tailwind-app.iam.gserviceaccount.com",
+  "client_id": "111668903567852235530",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-5qhn2%40build-tailwind-app.iam.gserviceaccount.com"
+}

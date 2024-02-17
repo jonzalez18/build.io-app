@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+"use strict";
+exports.__esModule = true;
+require("./App.css");
+var react_1 = require("react");
+var Auth_1 = require("./components/routes/Auth");
+var react_router_dom_1 = require("react-router-dom");
+var routes_1 = require("./components/routes/routes");
+//@ts-ignore
+var practice_ts_1 = require("./types/practice.ts");
+//@ts-ignore
+var practice_ts_2 = require("./types/practice.ts");
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    console.log((0, practice_ts_2["default"])('hello'));
+    var a = 4;
+    var b = 2;
+    console.log((0, practice_ts_1.multiply)(a, b));
+    console.log((0, practice_ts_1.multiplyByTwo)(a));
+    return (<react_router_dom_1.BrowserRouter>
+        <Auth_1.AuthContextProvider>
+      
+          </Auth_1.AuthContextProvider>
+        </react_router_dom_1.BrowserRouter>);
 }
-
-export default App;
+exports["default"] = App;

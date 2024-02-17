@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": false,
+    "outDir": "dist",
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "experimentalDecorators": true
+}  ,
+
+    "include": ["src/**/*", "express/index.ts"]
+}

@@ -1,3 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all .25s;
+  position: relative;
+}
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 3px;
+  top:0;
+  left:0;
+  background: #000;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+.hamburger-middle{
+  transform: translateY(7px);
+}
+.hamburger-bottom {
+  transform: translateY(14px);
+  background: #000;
+}
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+  position: fixed;
+  top: 50px;
+  right: 25px;
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+  background-color: #fff;
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+  background-color: #fff;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +62,67 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 15px;
+  padding: 20px 0;
+  overflow-x: auto;
+}
+
+.calendar-day {
+  flex: 0 0 300px;
+  padding: 0 20px;
+}
+
+.calendar-day-label {
+  font-size: 16px;
+  margin: 0 0 15px;
+  text-align: center;
+  background-color: #a2e0e0;
+}
+
+.calendar-day-label span {
+  background: #a2e0e0;
+  border-radius: 4px;
+  color: #272343;
+  display: inline-block;
+  font-weight: bold;
+  padding: 4px 8px;
+}
+
+.calendar-event {
+  align-items: flex-start;
+  background: #e3f6f5;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 0 10px;
+  padding: 8px 14px;
+}
+
+.calendar-event-info {
+  flex-grow: 1;
+  flex-basis: 82%;
+  line-height: 23px;
+}
+
+.calendar-event-time {
+  font-size: 0.8em;
+}
+
+.calendar-event-delete-button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  flex-shrink: 0;
+  height: 23px;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0 0 0 10px;
+  padding: 0;
+  width: 23px;
 }

@@ -1,0 +1,9 @@
+.earnings {
+    box-shadow: 0px 4px 10px #981841;
+    border-radius: 13px;
+}
+
+.losses {
+    box-shadow: 0px 4px 10px #AE4522;
+    border-radius: 13px;
+}
